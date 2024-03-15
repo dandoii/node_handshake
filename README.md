@@ -11,7 +11,7 @@ This Rust project allows users to perform a protocol-level network handshake wit
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/dandoii/node_handshake-rust.git
+   git clone https://github.com/dandoii/node_handshake.git
    cd node_handshake
    ```
 2. **Run the Project**

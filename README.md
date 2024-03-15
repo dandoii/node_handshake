@@ -24,7 +24,7 @@ This Rust project allows users to perform a protocol-level network handshake wit
     3. If using Ethereum, enter the public key of the node next.
 4. **Determining a Successful Handshake**
     1. Bitcoin
-        Upon a successful handshake with a bitcoin node, the version message will be sent, received and sent back. After the verack message is sent to the target node, it will send back a message. The protocol dictates that this should be a verack message, but often this will be skipped and a sendcmpt command will be returned. This will be outputted by the program along with the command bytes which can be converted to ASCII.
+        Upon a successful handshake with a bitcoin node, the version message will be sent, received and sent back. After the verack message is sent to the target node, it will send back a message. The protocol dictates that this should be a verack message, but often this will be skipped and a sendcmpt command will be returned. This will be outputted by the program along with the command bytes which can be converted to ASCII. If no command was received, a rerun of the program may be necessary.
     2. Ethereum
         Upon successful handshake with an Ethereum Node, the relevant secrets exchanged will be verified and if matched, a success message along with both hashes will printed.
 5. **EXAMPLES**

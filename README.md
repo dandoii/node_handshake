@@ -28,7 +28,11 @@ This Rust project allows users to perform a protocol-level network handshake wit
         Upon successful handshake with an Ethereum Node, the relevant secrets exchanged will be verified and if matched, a success message along with both hashes will printed.
 5. **EXAMPLES**
    1. Bitcoin
+   2. 
       89.38.98.211:8333
+      
       178.162.165.203:8333
-   2. Ethereum
+      
+   3. Ethereum
+      
          000314fd109a892573fe8ca8adfd2ed2a5259b3ca98a9b5a2e7f6fa495b5f258565861bf378cb4c2f250a06d9aa008d770c9c87a7364ae25fb3f29fa92af375f 23.92.70.178:30304

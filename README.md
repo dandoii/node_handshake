@@ -11,7 +11,7 @@ This Rust project allows users to perform a protocol-level network handshake wit
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/network-handshake-rust.git
+   git clone https://github.com/dandoii/network-handshake-rust.git
    ```
 2. **Run the Project**
     ```bash
